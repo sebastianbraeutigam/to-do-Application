@@ -28,6 +28,7 @@ main {
     flex-direction: column; 
     flex-wrap: nowrap; 
     align-content: stretch;
+    overflow:  auto;
 
 }
 
@@ -48,6 +49,8 @@ main > #inputField {
 .taskList {
     display: block;
     width: 100%;
+    overflow:  auto;
+    margin-bottom: 1em;
 }
 
 ul > li {
